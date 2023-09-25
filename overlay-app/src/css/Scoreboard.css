@@ -9,9 +9,7 @@
   position: relative;
 	margin: 0 auto;
 	transition: 1s;
-	
-  --box-radius: 10px;
-	
+
 	--scoreboard-h: calc(var(--sh) / 11.5);
 	--scoreboard-w: calc(var(--sw) / 2);
 	--scoreboard-hw: calc(var(--scoreboard-w) / 2);
@@ -130,7 +128,6 @@
   width: var(--logo-size);
   height: var(--logo-size);
   background: linear-gradient(0deg, #000000fd,rgb(var(--base-color)));
-  /* background-color: red; */
   border-radius: 0 0 50% 50%;
   bottom: 0;
 }

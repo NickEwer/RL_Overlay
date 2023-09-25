@@ -138,7 +138,7 @@ export const Stream: FC<{ match: Match }> = (props) => {
         <div className="overlay">
           <Scoreboard {...scoreboardState} />
           <TeamBoard {...teamBoardState} />
-          <PossessionPosition {...possessionPositionState} />
+          {/* <PossessionPosition {...possessionPositionState} /> */}
           <Spectating {...spectatingState} />
           <Replay {...replayState} />
         </div>
